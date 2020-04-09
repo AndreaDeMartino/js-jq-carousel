@@ -1,0 +1,83 @@
+/* General Rules */
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: black;
+}
+
+/* Utility */
+
+.white{
+  background: #fff;
+}
+
+.red{
+background: #e74c3c;
+}
+
+.orange{
+background: #e67e22;
+}
+
+.yellow{
+background: #f1c40f;
+}
+
+.green{
+background: #27ae60;
+}
+
+.blue{
+background: #2c3e50;
+}
+
+/* App */
+
+.app{
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carousel-box{
+  min-height: 600px;
+  width: 1200px;
+  background: #95a5a6;
+}
+
+.left-box{
+  flex-basis: 10%;
+  height: 600px;
+}
+
+.center-box{
+  flex-grow: 1;
+  height: 600px;
+}
+
+.center-box > img{
+  width: 100%;
+  height: 100%;
+}
+
+.selector{
+  display: inline;
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+
+.selector i{
+  padding: 3px 30px;
+}
+
+
+.right-box{
+  flex-basis: 10%;
+  height: 600px;
+}
