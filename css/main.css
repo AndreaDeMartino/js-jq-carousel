@@ -81,3 +81,7 @@ background: #2c3e50;
   flex-basis: 10%;
   height: 600px;
 }
+
+.item-active{
+  color: red;
+}
